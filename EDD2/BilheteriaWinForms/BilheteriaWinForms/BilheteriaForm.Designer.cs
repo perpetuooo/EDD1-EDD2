@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Pedro H Perpétuo CB3021688       Igor Benites CB3021734
+
+using System;
 using System.Windows.Forms;
 using System.Drawing;
 

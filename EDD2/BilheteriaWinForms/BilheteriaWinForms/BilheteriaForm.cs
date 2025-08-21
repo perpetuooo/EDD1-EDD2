@@ -1,3 +1,5 @@
+// Pedro H PerpÃ©tuo CB3021688       Igor Benites CB3021734
+
 using System;
 using System.Drawing;
 using System.Linq;
@@ -138,7 +140,7 @@ namespace BilheteriaApp
             int c = e.ColumnIndex;
             if (mat[r, c])
             {
-                MessageBox.Show($"Poltrona {r + 1}x{c + 1} já está ocupada.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show($"Poltrona {r + 1}x{c + 1} jï¿½ estï¿½ ocupada.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
             var dr = MessageBox.Show($"Deseja reservar a poltrona {r + 1} x {c + 1}?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
